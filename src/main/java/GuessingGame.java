@@ -18,7 +18,6 @@ public class GuessingGame {
         Scanner user= new Scanner (System.in);
         usersGuess = user.nextByte();
 
-//        System.out.println("Your guess is: " + usersGuess);
 
 
         //if else statement
