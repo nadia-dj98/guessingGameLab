@@ -25,7 +25,7 @@ public class WhatToWear {
         if (weather.equals("rainy") && temperature < 12 ) {
             System.out.println("Wear a winter coat and bring an umbrella!");
         }
-        else if (weather.equals("sunny") || temperature > 25) {
+        else if (weather.equals("sunny") || temperature >= 25) {
             System.out.println("Leave that jacket at home!");
         }
         else if (weather.equals("snowing") && temperature < 0) {
