@@ -10,7 +10,7 @@ public class WhatToWear {
 
         //user input 1
         Scanner q1 = new Scanner(System.in);
-        weather = q1.nextLine();
+        weather = q1.nextLine().toLowerCase();
 
         //prompt 2
         System.out.println("What's the temperature like today?");
