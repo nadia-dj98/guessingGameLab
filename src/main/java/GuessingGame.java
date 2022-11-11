@@ -21,10 +21,10 @@ public class GuessingGame {
 
 
         //if else statement
-        if(usersGuess == 24){
+        if(usersGuess == myNum){
             System.out.println("You guessed correct! Well done!");
         }
-        else if(usersGuess > 24 ) {
+        else if(usersGuess > myNum ) {
             System.out.println("You guessed too high :(");
         }
         else{
