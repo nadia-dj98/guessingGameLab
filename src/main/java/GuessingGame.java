@@ -10,13 +10,14 @@ public class GuessingGame {
 
         //variable with my age
         byte myNum = 24;
-        byte usersGuess = 0;
+
         //prompt
         System.out.println("How old do you think I am?");
 
         //user input
-        Scanner user= new Scanner (System.in);
-        usersGuess = user.nextByte();
+        Scanner reader= new Scanner (System.in);
+        String guess = reader.nextLine();
+        int usersGuess = Integer.parseInt(guess);
 
 
 
